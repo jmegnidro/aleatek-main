@@ -1,0 +1,86 @@
+[debug] [2023-11-29T13:11:23.816Z] ----------------------------------------------------------------------
+[debug] [2023-11-29T13:11:23.819Z] Command:       /home/keth/.nvm/versions/node/v20.10.0/bin/node /home/keth/.nvm/versions/node/v20.10.0/bin/firebase init
+[debug] [2023-11-29T13:11:23.819Z] CLI Version:   12.9.1
+[debug] [2023-11-29T13:11:23.819Z] Platform:      linux
+[debug] [2023-11-29T13:11:23.820Z] Node Version:  v20.10.0
+[debug] [2023-11-29T13:11:23.820Z] Time:          Wed Nov 29 2023 14:11:23 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2023-11-29T13:11:23.820Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-29T13:11:23.903Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-29T13:11:23.904Z] > authorizing via signed-in user (jmegnidro@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/keth/Documents/ALEK-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-29T13:14:38.900Z] Using project from CLI flag: aleatek-d7a43
+[debug] [2023-11-29T13:14:38.903Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 [none]
+[debug] [2023-11-29T13:14:40.096Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 403
+[debug] [2023-11-29T13:14:40.097Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-29T13:14:40.097Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-29T13:14:40.804Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/home/keth/.nvm/versions/node/v20.10.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/keth/.nvm/versions/node/v20.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project aleatek-d7a43. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-11-29T13:15:09.169Z] ----------------------------------------------------------------------
+[debug] [2023-11-29T13:15:09.173Z] Command:       /home/keth/.nvm/versions/node/v20.10.0/bin/node /home/keth/.nvm/versions/node/v20.10.0/bin/firebase init
+[debug] [2023-11-29T13:15:09.173Z] CLI Version:   12.9.1
+[debug] [2023-11-29T13:15:09.174Z] Platform:      linux
+[debug] [2023-11-29T13:15:09.174Z] Node Version:  v20.10.0
+[debug] [2023-11-29T13:15:09.174Z] Time:          Wed Nov 29 2023 14:15:09 GMT+0100 (heure normale d’Afrique de l’Ouest)
+[debug] [2023-11-29T13:15:09.175Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-29T13:15:09.269Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-29T13:15:09.270Z] > authorizing via signed-in user (jmegnidro@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/keth/Documents/ALEK-main
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-29T13:15:52.001Z] Using project from CLI flag: aleatek-d7a43
+[debug] [2023-11-29T13:15:52.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 [none]
+[debug] [2023-11-29T13:15:53.067Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 403
+[debug] [2023-11-29T13:15:53.067Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/aleatek-d7a43 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-29T13:15:53.068Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-29T13:15:53.772Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/home/keth/.nvm/versions/node/v20.10.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/keth/.nvm/versions/node/v20.10.0/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project aleatek-d7a43. Please make sure the project exists and your account has permission to access it.
